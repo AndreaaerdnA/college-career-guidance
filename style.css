@@ -1,0 +1,78 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+#name{
+    font-size: 10pt;
+}
+
+#citate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+blockquote{
+    font-size: 20pt;
+    font-style: italic;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card{
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.inter_img{
+    width: 80%;
+    height: auto;
+}
+
+.button{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button p{
+    font-size: 20pt;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.file_img{
+    width: 60px;
+}
