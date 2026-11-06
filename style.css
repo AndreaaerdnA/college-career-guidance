@@ -63,11 +63,11 @@ blockquote{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    transition: transform 0.2s ease;
 }
 
 .button p{
     font-size: 20pt;
-    transition: transform 0.2s ease;
 }
 
 .button:hover{
@@ -76,6 +76,7 @@ blockquote{
 }
 
 .button:active {
+    background-color: #a748fb;
     transform: scale(0.9);
 }
 
@@ -108,4 +109,13 @@ blockquote{
 .social_img{
     width: 50px;
     height: 50px;
+    transition: transform 0.2s ease;
+}
+.social_img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.social_img:active {
+    transform: scale(0.9);
 }
