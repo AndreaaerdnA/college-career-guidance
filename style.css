@@ -76,3 +76,30 @@ blockquote{
 .file_img{
     width: 60px;
 }
+
+#sotial{
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#sotial h1{
+    text-align: center;
+    width: 100%;
+}
+
+.social_img{
+    width: 50px;
+    height: 50px;
+}
